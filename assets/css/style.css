@@ -1,0 +1,44 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&display=swap');
+
+body {
+    background-color: rgb(202, 202, 202);
+}
+
+#body-div {
+    text-align: center;
+    width: 70vh;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* COMPLETED */
+.completed {
+    text-decoration: line-through;
+}
+
+/* DELETE BUTTON */
+ul button {
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/* TASK BUTTON */
+#addTaskBtn {
+    border: 0;
+    border-radius: 5px;
+    background-color: green;
+
+}
+
+/* LIST */
+li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-family: "Playwrite HU", cursive;
+}
