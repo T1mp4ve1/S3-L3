@@ -45,7 +45,6 @@ ul button {
     margin-left: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-
 }
 
 ul button:hover {
@@ -60,12 +59,14 @@ ul button:hover {
 #taskInput {
     border: 0;
     border-radius: 5px;
+    padding: 10px;
 }
 
 /* TASK BUTTON */
 #addTaskBtn {
     border: 0;
     border-radius: 5px;
+    padding: 10px 15px;
     background-color: rgb(94, 183, 94);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
