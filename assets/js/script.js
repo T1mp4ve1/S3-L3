@@ -12,7 +12,7 @@ function addTask() {
 
   const dltButton = document.createElement("button");
   dltButton.innerText = "X";
-  dltButton.addEventListener('click', () => {
+  dltButton.addEventListener("click", () => {
     ul.removeChild(li);
   });
 
